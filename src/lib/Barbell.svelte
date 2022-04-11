@@ -11,7 +11,6 @@
   $: {
     width = weight >= 700 ? 'skinny' : 'normal'
     plates = getPlates(weight)
-    console.log(plates)
   }
 
   squat.subscribe((v) => {

@@ -2,14 +2,14 @@
   import Block from './Block.svelte'
 </script>
 
-<div class="flex space-x-1 justify-center">
-  <Block reps={5} type="warmup" status="standby" />
-  <Block reps={5} type="warmup" status="ondeck" />
-  <Block reps={5} type="warmup" status="miss" />
-  <Block reps={3} type="warmup" status="good" />
-  <Block reps={2} type="warmup" status="standby" />
-  <Block reps={5} type="working" status="good" />
-  <Block reps={5} type="working" status="standby" />
-  <Block reps={5} type="working" status="ondeck" />
-  <Block reps={5} type="working" status="miss" />
+<div class="flex items-center justify-center space-x-1">
+  <Block reps={5} status="good" />
+  <Block reps={5} status="miss" />
+  <Block reps={5} status="ondeck" />
+  <Block reps={3} status="standby" />
+  <Block reps={2} status="standby" />
+  <div class="h-1 w-2 bg-black" />
+  <Block reps={5} status="standby" />
+  <Block reps={5} status="standby" />
+  <Block reps={5} status="standby" />
 </div>
