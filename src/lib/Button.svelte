@@ -5,7 +5,7 @@
 
 <div
   on:click={action}
-  class="container flex h-10 cursor-pointer select-none items-center rounded-md border-2 border-blue-500 px-2 text-blue-500"
+  class="flex h-10 cursor-pointer select-none items-center rounded-md border-2 border-blue-500 px-2 text-blue-500"
 >
   {name}
 </div>

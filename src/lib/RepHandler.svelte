@@ -23,9 +23,7 @@
       <LeftArrow />
     {/if}
   </div>
-  <div class="flex-1">
-    <Button name={buttonName} action={toggleEditReps} />
-  </div>
+  <Button name={buttonName} action={toggleEditReps} />
   <div class="rounded-md border-4 border-blue-500 bg-white p-2 px-4">
     {#if isEditReps == true}
       <Plus />
