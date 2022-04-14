@@ -8,7 +8,8 @@
 
 <main>
   <Header />
-  <div class="container mx-auto max-w-lg space-y-5 py-5 px-5">
+  <div class="container mx-auto max-w-lg space-y-5 px-5 pb-5">
+    <div class="h-10" />
     <Barbell />
     <Chunk />
     <RepHandler />
