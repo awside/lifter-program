@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store'
 
-export const squat = writable('135')
+export const squat = writable('1012')
 export const press = writable('135')
 export const benchpress = writable('135')
 export const deadlift = writable('135')

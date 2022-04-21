@@ -9,7 +9,7 @@
   <Block reps={3} status="standby" />
   <Block reps={2} status="standby" />
   <div class="h-1 w-2 bg-black" />
-  <Block reps={5} status="standby" />
-  <Block reps={5} status="standby" />
+  <Block reps={5} status="ondeck" />
+  <Block reps={5} status="good" />
   <Block reps={5} status="standby" />
 </div>

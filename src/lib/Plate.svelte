@@ -27,9 +27,9 @@
   switch (weight) {
     case 'bar':
       attr.base += ' bg-black'
-      attr.base += ' h-10'
+      attr.base += ' h-6'
       attr.base += ' text-white'
-      attr.width = ' w-12'
+      attr.width = ' w-8'
       attr.base = attr.base.replace(' rounded-md', '')
       attr.verticalText = ''
       attr.weight = '45'

@@ -36,7 +36,7 @@
 </script>
 
 <div
-  class="flex h-56 flex-row items-center overflow-hidden border-2 border-black bg-blue-300"
+  class="flex h-56 flex-row items-center overflow-hidden rounded-lg border-2 border-black bg-blue-300"
 >
   <Plate weight="bar" {width} />
   {#each plates as plate (plate)}

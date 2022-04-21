@@ -1,18 +1,14 @@
 <script lang="ts">
-  export let width: any = '25'
-  export let height: any = '25'
-  export let color: string = '#2b2b2b'
-  export let strokeWidth: number = 4
+  export let width: number = 40
 </script>
 
-<svg version="1.1" {width} {height} xmlns="http://www.w3.org/2000/svg">
-  <line
-    x1="10%"
-    x2="90%"
-    y1="50%"
-    y2="50%"
-    stroke={color}
-    stroke-width={strokeWidth}
-    stroke-linecap="round"
+<svg
+  version="1.1"
+  {width}
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M17.17,24a1,1,0,0,1-.71-.29L8.29,15.54a5,5,0,0,1,0-7.08L16.46.29a1,1,0,1,1,1.42,1.42L9.71,9.88a3,3,0,0,0,0,4.24l8.17,8.17a1,1,0,0,1,0,1.42A1,1,0,0,1,17.17,24Z"
   />
 </svg>

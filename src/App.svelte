@@ -8,10 +8,10 @@
 
 <main>
   <Header />
-  <div class="container mx-auto max-w-lg space-y-5 px-5 pb-24">
+  <div class="container mx-auto max-w-md space-y-5 px-5 pb-24">
     <div class="h-10" />
-    <Barbell />
     <Chunk />
+    <Barbell />
     <RepHandler />
   </div>
   <NavBar />
